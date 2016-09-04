@@ -12,11 +12,12 @@ addons:
 language: node_js
 
 node_js:
+  - "6"
+  - "4"
   - "0.12"
   - "0.10"
   - "0.8"
   - "iojs"
-  - "4"
 
 install:
   - PATH="`npm bin`:`npm bin -g`:$PATH"
